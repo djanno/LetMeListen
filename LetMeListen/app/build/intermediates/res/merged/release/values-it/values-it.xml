@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Added_checkbox">Aggiungi!</string>
+    <string name="Albums">Album</string>
+    <string name="Artists">Artisti</string>
+    <string name="Playlist">Playlist</string>
+    <string name="Search">Cerca</string>
+    <string name="Tracks">Tracce</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="album_message">Albums: </string>
+    <string name="app_name">letmelisten</string>
+    <string name="available_servers_message">Stazioni disponibili</string>
+    <string name="be_a_listener_button">Diventa un ascoltatore!</string>
+    <string name="be_a_station_button">Diventa una stazione!</string>
+    <string name="become_visible_info_message">Tocca l\'antenna quì sopra per renderti visibile!</string>
+    <string name="begin_discovery_info_message">Tocca l\'icona qui sopra per trovare le stazioni vicine!</string>
+    <string name="broadcast_error_message">"Non puoi iniziare a trasmettere senza ascoltatori…"</string>
+    <string name="broadcasting_as_message">Trasmettendo come</string>
+    <string name="bt_adapter_message">Hai bisogno di un dispositivo con bluetooth per poter usare quest\'app</string>
+    <string name="connected_clients_message">Ascoltatori connessi</string>
+    <string name="connected_to_message">Connesso a</string>
+    <string name="disconnected_message">"Disconnesso da  "</string>
+    <string name="discovery_terminated_message">Procedura di discovery terminata</string>
+    <string name="downloaded_tracks_message">Canzoni scaricate</string>
+    <string name="enable_bt_message">Devi attivare il bluetooth per poter continuare</string>
+    <string name="error_create_socket_message">"Impossibile creare la server socket, riprova più tardi"</string>
+    <string name="kick_message">Hai kickato </string>
+    <string name="listener_info_message">Tocca qui per essere un ascoltatore!</string>
+    <string name="loading_tracks_message">Caricando le canzoni…</string>
+    <string name="max_songs_selected_message">Hai selezionato troppe canzoni!</string>
+    <string name="out_of_station_message">" fuori dalla stazione"</string>
+    <string name="permission_message">This app can\'t run without permissions</string>
+    <string name="scanning_message">Cercando stazioni…</string>
+    <string name="search_album_hint">Cerca per album</string>
+    <string name="search_artist_hint">Cerca per artista</string>
+    <string name="search_track_hint">Cerca per canzone, album o artista</string>
+    <string name="select_songs_tips_message">"Seleziona da una a "</string>
+    <string name="song_message">" canzoni"</string>
+    <string name="start_broadcasting_button_message">Trasmetti!</string>
+    <string name="station_closed_message">La tua stazione è stata chiusa perché priva di ascoltatori</string>
+    <string name="station_info_message">Tocca qui per essere una stazione!</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="turn_on_bt_message">Devi attivare il bluetooth per poter continuare</string>
+    <string name="visibility_message">Sarai visibile per i prossimi 120s</string>
+    <string name="you_are_message">Sei</string>
+    <string name="your_playlist_message">La tua playlist</string>
+</resources>

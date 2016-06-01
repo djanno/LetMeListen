@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="letmelisten.unibo.studio.letmelisten"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="letmelisten.unibo.studio.letmelisten.SetupActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="letmelisten.unibo.studio.letmelisten.MusicRetrieverActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="letmelisten.unibo.studio.letmelisten.StationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="letmelisten.unibo.studio.letmelisten.ListenerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <service android:name="letmelisten.unibo.studio.letmelisten.connection.handshake.server.WelcomeService" />
+        <service android:name="letmelisten.unibo.studio.letmelisten.connection.connection_managers.server.ServerConnectionManager" />
+        <service android:name="letmelisten.unibo.studio.letmelisten.connection.connection_managers.client.ClientConnectionManager" />
+        <service android:name="letmelisten.unibo.studio.letmelisten.music_player.MusicPlayer" />
+    </application>
+
+</manifest>

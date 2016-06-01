@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment"
+    android:id="@+id/albumFrag"
+    android:orientation="vertical"
+    android:background="#26f3f3f3">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:hint="Search"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        android:id="@+id/searchField"
+        android:queryHint="@string/search_album_hint"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:id="@+id/albumListView"
+        android:scrollingCache="true" />
+</LinearLayout>
