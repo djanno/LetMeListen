@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/trackiconInplaylist"
+        android:src="@drawable/track_icon"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:descendantFocusability="blocksDescendants">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="TitleHere"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:id="@+id/titleField"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit ="marquee_forever"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="DurationHere"
+            android:id="@+id/durationField"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit ="marquee_forever"
+            android:singleLine="true"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:text="Remove"
+        android:background="@drawable/playlisticon2"
+        android:id="@+id/removeTrackButton"
+        android:textSize="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+
+
+</LinearLayout>

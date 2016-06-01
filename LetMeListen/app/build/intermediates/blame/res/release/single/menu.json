@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\doomdiskday\\Desktop\\Progetto\\Finale\\LetMeListen\\app\\build\\intermediates\\res\\merged\\release\\menu\\server_lobby_menu.xml",
+        "source": "C:\\Users\\doomdiskday\\Desktop\\Progetto\\Finale\\LetMeListen\\app\\src\\main\\res\\menu\\server_lobby_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\doomdiskday\\Desktop\\Progetto\\Finale\\LetMeListen\\app\\build\\intermediates\\res\\merged\\release\\menu\\find_server_menu.xml",
+        "source": "C:\\Users\\doomdiskday\\Desktop\\Progetto\\Finale\\LetMeListen\\app\\src\\main\\res\\menu\\find_server_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\doomdiskday\\Desktop\\Progetto\\Finale\\LetMeListen\\app\\build\\intermediates\\res\\merged\\release\\menu\\actionbar.xml",
+        "source": "C:\\Users\\doomdiskday\\Desktop\\Progetto\\Finale\\LetMeListen\\app\\src\\main\\res\\menu\\actionbar.xml"
+    }
+]

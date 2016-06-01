@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="become_visible"
+        android:id="@+id/makeYourselfVisible"
+        android:icon="@drawable/antenna_icon"
+        android:orderInCategory="10"
+        app:showAsAction="always"/>
+
+</menu>
